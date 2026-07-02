@@ -1,13 +1,13 @@
 <?php
 
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "uas_perpustakaan";
+$host = $_ENV['MYSQLHOST'];
+$user = $_ENV['MYSQLUSER'];
+$password = $_ENV['MYSQLPASSWORD'];
+$database = $_ENV['MYSQLDATABASE'];
+$port = $_ENV['MYSQLPORT'];
 
-$conn = mysqli_connect($host, $user, $password, $database);
+$conn = mysqli_connect($host, $user, $password, $database, $port);
 
-if (!$conn) {
-    die("Koneksi Database Gagal : " . mysqli_connect_error());
+if(!$conn){
+    die(mysqli_connect_error());
 }
-?>
