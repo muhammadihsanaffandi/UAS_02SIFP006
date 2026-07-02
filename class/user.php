@@ -2,7 +2,7 @@
 
 require_once "database.php";
 
-class User extends database
+class User extends Database
 {
     private $nama;
     private $username;
