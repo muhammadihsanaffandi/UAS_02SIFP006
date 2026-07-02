@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "provider": "php",
+  "steps": {
+    "install-extensions": {
+      "commands": ["install-php-extensions mysqli pdo_mysql"]
+    }
+  },
+  "deploy": {
+    "inputs": [
+      "...",
+      {
+        "step": "install-extensions",
+        "include": [
+          "/usr/local/lib/php/extensions",
+          "/usr/local/etc/php/conf.d"
+        ]
+      }
+    ]
+  }
+}
