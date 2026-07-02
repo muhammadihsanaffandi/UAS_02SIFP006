@@ -2,7 +2,7 @@
 
     <div class="navbar-left">
 
-        <img src="/pweb2/uas_siperpus/assets/img/logo.png" class="nav-logo" alt="Logo">
+        <img src="../assets/img/logo.png" class="nav-logo" alt="Logo">
 
         <div class="brand">
 
