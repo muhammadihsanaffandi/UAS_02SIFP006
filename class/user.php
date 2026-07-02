@@ -1,8 +1,8 @@
 <?php
 
-require_once "Database.php";
+require_once "database.php";
 
-class User extends Database
+class User extends database
 {
     private $nama;
     private $username;
