@@ -1,0 +1,270 @@
+/* ===========================
+   AUTH PAGE
+=========================== */
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+.auth-container{
+
+    width:1050px;
+
+    max-width:100%;
+
+    display:flex;
+
+    overflow:hidden;
+
+    border-radius:22px;
+
+    background:#F8F3EC;
+
+    box-shadow:0 20px 45px rgba(21,55,89,.15);
+
+}
+
+/* ===========================
+   LEFT SIDE
+=========================== */
+
+.auth-left{
+
+    width:50%;
+
+    background:#F8F3EC;
+
+    padding:55px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+/* ===========================
+   TITLE
+=========================== */
+
+.auth-left h2{
+
+    text-align:center;
+
+    font-size:30px;
+
+    color:#153759;
+
+    margin:15px 0 10px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#7893B3;
+
+    line-height:25px;
+
+    margin-bottom:28px;
+
+    font-size:15px;
+
+}
+
+/* ===========================
+   FORM
+=========================== */
+
+.form-group{
+
+    margin-bottom:18px;
+
+}
+
+/* ===========================
+   LINK
+=========================== */
+
+.bottom-text{
+
+    margin-top:20px;
+
+    text-align:center;
+
+    font-size:14px;
+
+}
+
+.bottom-text a{
+
+    color:#153759;
+
+    font-weight:600;
+
+}
+
+.bottom-text a:hover{
+
+    color:#7893B3;
+
+}
+
+/* ===========================
+   RIGHT SIDE
+=========================== */
+
+.auth-right{
+
+    width:50%;
+
+    background:#153759;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:60px;
+
+}
+
+.auth-content h1{
+
+    font-size:38px;
+
+    margin-bottom:20px;
+
+}
+
+.auth-content p{
+
+    line-height:28px;
+
+    margin-bottom:30px;
+
+    opacity:.9;
+
+}
+
+.auth-content ul{
+
+    list-style:none;
+
+}
+
+.auth-content li{
+
+    margin:15px 0;
+
+    font-size:17px;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:900px){
+
+    .auth-container{
+
+        flex-direction:column;
+
+    }
+
+    .auth-left,
+    .auth-right{
+
+        width:100%;
+
+    }
+
+    .auth-right{
+
+        padding:40px;
+
+    }
+
+}
+
+/* ===========================
+   RIGHT PANEL LOGO
+=========================== */
+
+.logo-panel{
+
+    width:110px;
+
+    display:block;
+
+    margin:0 auto 25px;
+
+    filter:brightness(0) invert(1);
+
+}
+
+.auth-content{
+
+    width:100%;
+
+}
+
+.auth-content h1{
+
+    text-align:center;
+
+}
+
+.auth-content p{
+
+    text-align:center;
+
+}
+
+.auth-content ul{
+
+    margin-top:30px;
+
+}
+
+.auth-content li{
+
+    margin-bottom:18px;
+
+}
+
+/* ===========================
+   REGISTER
+=========================== */
+
+.auth-left form{
+
+    margin-top:10px;
+
+}
+
+.auth-left{
+
+    justify-content:center;
+
+}
